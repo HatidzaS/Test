@@ -35,3 +35,40 @@ c:\users\hatidza\documents\visual studio 2015\Projects\FFCAplication\FFCAplicati
 c:\users\hatidza\documents\visual studio 2015\Projects\FFCAplication\FFCAplication\obj\Debug\FFCAplication.csprojResolveAssemblyReference.cache
 c:\users\hatidza\documents\visual studio 2015\Projects\FFCAplication\FFCAplication\obj\Debug\FFCAplication.dll
 c:\users\hatidza\documents\visual studio 2015\Projects\FFCAplication\FFCAplication\obj\Debug\FFCAplication.pdb
+C:\Users\gagul\Desktop\FFCAplication\FFCAplication\bin\roslyn\csc.exe
+C:\Users\gagul\Desktop\FFCAplication\FFCAplication\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\gagul\Desktop\FFCAplication\FFCAplication\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\gagul\Desktop\FFCAplication\FFCAplication\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\gagul\Desktop\FFCAplication\FFCAplication\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\gagul\Desktop\FFCAplication\FFCAplication\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\gagul\Desktop\FFCAplication\FFCAplication\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\gagul\Desktop\FFCAplication\FFCAplication\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\gagul\Desktop\FFCAplication\FFCAplication\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\gagul\Desktop\FFCAplication\FFCAplication\bin\roslyn\vbc.exe
+C:\Users\gagul\Desktop\FFCAplication\FFCAplication\bin\roslyn\VBCSCompiler.exe
+C:\Users\gagul\Desktop\FFCAplication\FFCAplication\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\gagul\Desktop\FFCAplication\FFCAplication\bin\FFCAplication.dll.config
+C:\Users\gagul\Desktop\FFCAplication\FFCAplication\bin\FFCAplication.dll
+C:\Users\gagul\Desktop\FFCAplication\FFCAplication\bin\FFCAplication.pdb
+C:\Users\gagul\Desktop\FFCAplication\FFCAplication\bin\EntityFramework.dll
+C:\Users\gagul\Desktop\FFCAplication\FFCAplication\bin\EntityFramework.SqlServer.dll
+C:\Users\gagul\Desktop\FFCAplication\FFCAplication\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\gagul\Desktop\FFCAplication\FFCAplication\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\gagul\Desktop\FFCAplication\FFCAplication\bin\System.Web.Helpers.dll
+C:\Users\gagul\Desktop\FFCAplication\FFCAplication\bin\System.Web.Mvc.dll
+C:\Users\gagul\Desktop\FFCAplication\FFCAplication\bin\System.Web.Razor.dll
+C:\Users\gagul\Desktop\FFCAplication\FFCAplication\bin\System.Web.Webpages.Deployment.dll
+C:\Users\gagul\Desktop\FFCAplication\FFCAplication\bin\System.Web.Webpages.dll
+C:\Users\gagul\Desktop\FFCAplication\FFCAplication\bin\System.Web.Webpages.Razor.dll
+C:\Users\gagul\Desktop\FFCAplication\FFCAplication\bin\EntityFramework.xml
+C:\Users\gagul\Desktop\FFCAplication\FFCAplication\bin\EntityFramework.SqlServer.xml
+C:\Users\gagul\Desktop\FFCAplication\FFCAplication\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\gagul\Desktop\FFCAplication\FFCAplication\bin\System.Web.Razor.xml
+C:\Users\gagul\Desktop\FFCAplication\FFCAplication\bin\System.Web.Webpages.xml
+C:\Users\gagul\Desktop\FFCAplication\FFCAplication\bin\System.Web.Webpages.Deployment.xml
+C:\Users\gagul\Desktop\FFCAplication\FFCAplication\bin\System.Web.Webpages.Razor.xml
+C:\Users\gagul\Desktop\FFCAplication\FFCAplication\bin\System.Web.Helpers.xml
+C:\Users\gagul\Desktop\FFCAplication\FFCAplication\bin\System.Web.Mvc.xml
+C:\Users\gagul\Desktop\FFCAplication\FFCAplication\obj\Debug\FFCAplication.csprojResolveAssemblyReference.cache
+C:\Users\gagul\Desktop\FFCAplication\FFCAplication\obj\Debug\FFCAplication.dll
+C:\Users\gagul\Desktop\FFCAplication\FFCAplication\obj\Debug\FFCAplication.pdb

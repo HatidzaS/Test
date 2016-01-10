@@ -1,0 +1,49 @@
+﻿@using FFCAplication.Areas.ModulZaposlenici.Models
+@using FFCAplication.Models
+@model DobavljaciPrikaziViewModel
+
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Dobavljaci</title>
+</head>
+<body>
+    <table class="table table-striped">
+    <thead>
+    <tr>
+        <th>Naziv</th>
+        <th>Adresa</th>
+        <th>Kontakt osoba</th>
+        <th>E mail</th>
+        <th>Broj telefona</th>
+        <th>Naziv banke</th>
+        <th>Broj transakcijskog </th>
+        <th>Akcija</th>
+    </tr>
+    </thead>
+    <tbody>
+        @foreach (Dobavljaci x in Model.dobavljaci)
+        {
+            <tr>
+                <td>@x.Naziv</td>
+                <td>@x.Adresa</td>
+                <td>@x.KontaktOsoba</td>
+                <td>@x.Email</td>
+                <td>@x.BrojTelefona</td>
+                <td>@x.BrojTelefona</td>
+                <td>@x.Banka</td>
+                <td>@x.BrojTransakcijskogRacuna</td>
+               <td> @Html.ActionLink("Obriši", "Obrisi", new { dobavljacId = x.Id })</td>
+                <td> @Html.ActionLink("Uredi", "Uredi", new { dobavljacId = x.Id })</td>
+
+            </tr>
+        }
+    </tbody>
+
+
+        </table>
+</body>
+</html>

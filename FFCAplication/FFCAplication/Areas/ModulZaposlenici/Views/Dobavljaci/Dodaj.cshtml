@@ -1,0 +1,42 @@
+﻿@using FFCAplication.Areas.ModulZaposlenici.Models
+
+@model DobavljaciEditViewModel
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Dodaj dobavljaca</title>
+</head>
+<body>
+    <form method="post" action="~/ModulZaposlenici/Dobavljaci/Snimi">
+
+        @Html.HiddenFor(model=>model.Id)
+        @Html.TextBoxFor(model => model.Naziv, new { placeholder = "Unesite naziv", tabindex = 1 })
+        <br />
+        <br />
+        @Html.TextBoxFor(model => model.Adresa, new { placeholder = "Unesite adresu", tabindex = 2 })
+        <br />
+        <br />
+        @Html.TextBoxFor(model => model.KontaktOsoba, new { placeholder = "Unesite kontakt osobu", tabindex = 3 })
+        <br />
+        <br />
+        @Html.TextBoxFor(model => model.Email, new { placeholder = "Unesite email", tabindex = 4 })
+      
+        <br />
+        <br />
+        @Html.TextBoxFor(model => model.BrojTelefona, new { placeholder = "Unesite broj telefona", tabindex = 5 })
+        <br />
+        <br />
+        @Html.TextBoxFor(model => model.Banka, new { placeholder = "Unesite naziv banke", tabindex = 6 })
+        <br />
+        <br />
+        @Html.TextBoxFor(model => model.BrojTransakcijskogRacuna, new { placeholder = "Unesite broj transakcijskog racuna", tabindex = 7 })
+        <br />
+        <br />
+        <button type="submit">Dodaj</button>
+    </form>
+        
+        </body>
+</html>
