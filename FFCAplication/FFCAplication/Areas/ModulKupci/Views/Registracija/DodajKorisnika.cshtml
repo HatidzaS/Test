@@ -1,0 +1,57 @@
+﻿@using FFCAplication.Areas.ModulKupci.Models
+@{
+    Layout = null;
+}
+
+@model KupciViewModel
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>DodajKorisnika</title>
+</head>
+<body>
+    <form method="post" action="~/ModulKupci/Registracija/Registracija">
+        @Html.TextBoxFor(Model => Model.Ime, new { placeholder = "Unesite ime", tabindex = 1 })
+        <br />
+        <br />
+        @Html.TextBoxFor(Model => Model.Prezime, new { placeholder = "Unesite prezime", tabindex = 2 })
+        <br />
+        @Html.TextBoxFor(Model => Model.DatumRodjenja, new { placeholder = "Datum rodjenja", tabindex = 3 })
+        <br />
+        <br />
+        Spol:
+        <div>
+            Musko
+            @Html.RadioButtonFor(model => model.Spol, "M", new { tabindex = 4 })
+            Zensko
+            @Html.RadioButtonFor(model => model.Spol, "Z", new { tabindex = 5 })
+        </div>
+        <br />
+        <br />
+        @Html.DropDownListFor(model => model.OpcineId, Model.opcine, new { tabindex = 6 })
+        <br />
+        <br />
+        @Html.TextBoxFor(Model => Model.Adresa, new { placeholder = "Adresa", tabindex = 7 })
+        <br />
+        <br />
+        @Html.TextBoxFor(Model => Model.BrojTelefona, new { placeholder = "Broj telefona", tabindex = 8 })
+        <br />
+        <br />
+        @Html.TextBoxFor(Model => Model.Email, new { placeholder = "Email", tabindex = 9 })
+        <br />
+        <br />
+        @Html.TextBoxFor(Model => Model.KorisnickoIme, new { placeholder = "Korisnicko ime", tabindex = 10 })
+        <br />
+        <br />
+        @Html.TextBoxFor(Model => Model.Lozinka, new { placeholder = "Lozika", tabindex = 11 })
+        <br />
+        <br />
+        <button type="submit">Dodaj</button>
+        
+
+    </form>
+</body>
+</html>
