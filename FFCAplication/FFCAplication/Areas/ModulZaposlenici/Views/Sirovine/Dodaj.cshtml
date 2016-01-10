@@ -1,0 +1,27 @@
+﻿@using FFCAplication.Areas.ModulZaposlenici.Models
+@{
+    Layout = null;
+}
+@model SirovineEditViewModel
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>DodajSirovinu</title>
+</head>
+<body>
+    <form method="post" action="~/ModulZaposlenici/Sirovine/Pohrani">
+        @Html.HiddenFor(model=>model.Id)
+        @Html.TextBoxFor(model=>model.Naziv, new { placeholder = "Unesite ime", tabindex = 1 })
+        <br />
+        @Html.TextBoxFor(model => model.Cijena, new { placeholder = "Unesite cijenu", tabindex = 2 })
+        <br />
+        @Html.TextBoxFor(model => model.MjernaJedinica, new { placeholder = "Unesite mjernu jedinicu", tabindex = 3 })
+        <br />
+
+        <button type="submit">Dodaj</button>
+    </form>
+</body>
+</html>

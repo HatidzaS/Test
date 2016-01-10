@@ -1,0 +1,41 @@
+﻿@using FFCAplication.Areas.ModulZaposlenici.Models
+@using FFCAplication.Models
+@{
+    Layout = null;
+}
+@model SirovinePrikaziViewModel
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>PrikazSirovina</title>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>Naziv</th>
+                <th>Cijena</th>
+                <th>Mjerna jedinica</th>
+                <th>Akcija</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (Sirovine sirovina in Model.sirovine)
+            {
+                <tr>
+                    <td>@sirovina.Naziv</td>
+                    <td>@sirovina.Cijena</td>
+                    <td>@sirovina.MjernaJedinica</td>
+                    <td>
+                        @Html.ActionLink("Uredi", "Uredi", new { sirovinaId=sirovina.Id})
+                        @Html.ActionLink("Obriši", "Obrisi", new {sirovinaId=sirovina.Id })
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</body>
+</html>

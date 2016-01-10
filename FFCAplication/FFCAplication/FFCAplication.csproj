@@ -106,6 +106,9 @@
     <Compile Include="Areas\ModulKupci\Controllers\RegistracijaController.cs" />
     <Compile Include="Areas\ModulKupci\Models\KupciViewModel.cs" />
     <Compile Include="Areas\ModulKupci\ModulKupciAreaRegistration.cs" />
+    <Compile Include="Areas\ModulZaposlenici\Controllers\SirovineController.cs" />
+    <Compile Include="Areas\ModulZaposlenici\Models\SirovineEditViewModel.cs" />
+    <Compile Include="Areas\ModulZaposlenici\Models\SirovinePrikaziViewModel.cs" />
     <Compile Include="Areas\ModulZaposlenici\ModulZaposleniciAreaRegistration.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="DAL\MojContext.cs" />
@@ -143,6 +146,8 @@
     <Content Include="Areas\ModulKupci\Views\web.config" />
     <Content Include="Areas\ModulZaposlenici\Views\web.config" />
     <Content Include="Areas\ModulKupci\Views\Registracija\DodajKorisnika.cshtml" />
+    <Content Include="Areas\ModulZaposlenici\Views\Sirovine\Dodaj.cshtml" />
+    <Content Include="Areas\ModulZaposlenici\Views\Sirovine\Prikazi.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -156,8 +161,6 @@
     <Folder Include="Areas\ModulAdministrator\Models\" />
     <Folder Include="Areas\ModulAdministrator\Views\Shared\" />
     <Folder Include="Areas\ModulKupci\Views\Shared\" />
-    <Folder Include="Areas\ModulZaposlenici\Controllers\" />
-    <Folder Include="Areas\ModulZaposlenici\Models\" />
     <Folder Include="Areas\ModulZaposlenici\Views\Shared\" />
   </ItemGroup>
   <PropertyGroup>
